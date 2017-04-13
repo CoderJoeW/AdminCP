@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <0>
+        <version></version>
+    </0>
+    <1>
+        <version>            bug name</version>
+    </1>
+    <2>
+        <version></version>
+    </2>
+    <3>
+        <version>            reporter</version>
+    </3>
+    <4>
+        <version></version>
+    </4>
+    <5>
+        <version>            status</version>
+    </5>
+    <6>
+        <version></version>
+    </6>
+    <7>
+        <version>            priority</version>
+    </7>
+    <8>
+        <version></version>
+    </8>
+    <9>
+        <version>            comments</version>
+    </9>
+    <10>
+        <version></version>
+    </10>
+    <11>
+        <version></version>
+    </11>
+    <12>
+        <version>                                	$version</version>
+    </12>
+    <13>
+        <version></version>
+    </13>
+    <14>
+        <version>                                    $badge</version>
+    </14>
+    <15>
+        <version></version>
+    </15>
+    <16>
+        <version></version>
+    </16>
+    <17>
+        <version></version>
+    </17>
+    <18>
+        <version>                                            $notes</version>
+    </18>
+    <19>
+        <version></version>
+    </19>
+    <20>
+        <version></version>
+    </20>
+    <21>
+        <version></version>
+    </21>
+    <22>
+        <version></version>
+    </22>
+    <23>
+        <version></version>
+    </23>
+    <24>
+        <version>                                	$bugName</version>
+    </24>
+    <25>
+        <version></version>
+    </25>
+    <26>
+        <version>                                	$reporter</version>
+    </26>
+    <27>
+        <version></version>
+    </27>
+    <28>
+        <version>                                	$status</version>
+    </28>
+    <29>
+        <version></version>
+    </29>
+    <30>
+        <version></version>
+    </30>
+    <31>
+        <version></version>
+    </31>
+    <32>
+        <version></version>
+    </32>
+    <33>
+        <version>											Update Status</version>
+    </33>
+    <34>
+        <version></version>
+    </34>
+    <35>
+        <version></version>
+    </35>
+    <36>
+        <version>														NewNew</version>
+    </36>
+    <37>
+        <version>														In ProgressIn Progress</version>
+    </37>
+    <38>
+        <version>                                                        FixedFixed</version>
+    </38>
+    <39>
+        <version></version>
+    </39>
+    <40>
+        <version></version>
+    </40>
+    <41>
+        <version></version>
+    </41>
+    <42>
+        <version></version>
+    </42>
+    <43>
+        <version></version>
+    </43>
+    <44>
+        <version>                                	$priority</version>
+    </44>
+    <45>
+        <version></version>
+    </45>
+    <46>
+        <version></version>
+    </46>
+    <47>
+        <version></version>
+    </47>
+    <48>
+        <version>											Update Priority</version>
+    </48>
+    <49>
+        <version></version>
+    </49>
+    <50>
+        <version></version>
+    </50>
+    <51>
+        <version>														Low PriorityLow Priority</version>
+    </51>
+    <52>
+        <version>														Medium PriorityMedium Priority</version>
+    </52>
+    <53>
+        <version>                                                        High PriorityHigh Priority</version>
+    </53>
+    <54>
+        <version></version>
+    </54>
+    <55>
+        <version></version>
+    </55>
+    <56>
+        <version></version>
+    </56>
+    <57>
+        <version></version>
+    </57>
+    <58>
+        <version></version>
+    </58>
+    <59>
+        <version></version>
+    </59>
+    <60>
+        <version></version>
+    </60>
+    <61>
+        <version>                                		$comments</version>
+    </61>
+    <62>
+        <version></version>
+    </62>
+    <63>
+        <version></version>
+    </63>
+    <64>
+        <version></version>
+    </64>
+    <65>
+        <version>                                        $comments</version>
+    </65>
+</root>

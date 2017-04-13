@@ -4,7 +4,7 @@
     //require_once("../server/overhead/contructionBanner.php");
     $bypassEncoding = "bake74wncn8829011903jdnnamkjeu298727ye7d";
     if($_GET['v'] == null){
-    	$currVersion = "0.7.5";
+    	$currVersion = "0.7.6";
     }else{
     	$currVersion = $_GET['v'];
     }

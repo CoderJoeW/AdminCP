@@ -1,29 +1,3 @@
-<style>
-	.statForm{
-    	float:right;
-    }
-    
-    .priorityForm{
-    	float:right;
-    }
-    
-.dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; }
-        .dropdown dd { position:relative; }
-        .dropdown a, .dropdown a:visited { color:#816c5b; text-decoration:none; outline:none;}
-        .dropdown a:hover { color:#5d4617;}
-        .dropdown dt a:hover, .dropdown dt a:focus { color:#5d4617; border: 1px solid #5d4617;}
-        .dropdown dt a {background:#e4dfcb url(arrow.png) no-repeat scroll right center; display:block; padding-right:20px;
-                        border:1px solid #d4ca9a; width:150px;}
-        .dropdown dt a span {cursor:pointer; display:block; padding:5px;}
-        .dropdown dd ul { background:#e4dfcb none repeat scroll 0 0; border:1px solid #d4ca9a; color:#C5C0B0; display:none;
-                          left:0px; padding:5px 0px; position:absolute; top:2px; width:auto; min-width:170px; list-style:none;}
-        .dropdown span.value { display:none;}
-        .dropdown dd ul li a { padding:5px; display:block;}
-        .dropdown dd ul li a:hover { background-color:#d0c9af;}
-        
-        .dropdown img.flag { border:none; vertical-align:middle; margin-left:10px; }
-</style>
-
 <div id="sorting">
     	<form method="post">
         	<select name="sortby" id="sortby">
@@ -34,6 +8,7 @@
                 <option value="priority">Priority</option>
             </select>
             <select name="version" id="version" class="hidden">
+            	<option value="0.7.6">0.7.6</option>
             	<option value="0.7.5">0.7.5</option>
             	<option value="0.7.4">0.7.4</option>
             	<option value="0.7.3">0.7.3</option>

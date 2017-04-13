@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <0>
+        <transaction id></transaction id>
+    </0>
+    <1>
+        <transaction id>            donor email</transaction id>
+    </1>
+    <2>
+        <transaction id></transaction id>
+    </2>
+    <3>
+        <transaction id>            amount</transaction id>
+    </3>
+    <4>
+        <transaction id></transaction id>
+    </4>
+    <5>
+        <transaction id>            timestamp</transaction id>
+    </5>
+    <6>
+        <transaction id></transaction id>
+    </6>
+    <7>
+        <transaction id>$id</transaction id>
+    </7>
+</root>

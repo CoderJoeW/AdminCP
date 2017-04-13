@@ -1,0 +1,10 @@
+# # av:php5-engine
+AddHandler av-php56 .php
+
+# av:PHP-upload
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_input_time 300
+# PHP-upload
+
+ErrorDocument 404 /new404.html

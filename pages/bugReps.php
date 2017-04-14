@@ -93,6 +93,12 @@
                         
                         if($status == "New"){
                         	$color2 = 'white';
+                        }elseif($status == "Duplicate"){
+                        	$color2 = "purple";
+                        }elseif($status == "Not A Bug"){
+                        	$color2 = "grey";
+                        }elseif($status == "Will Not Fix"){
+                        	$color2 = "pink";
                         }elseif($status == "In Progress"){
                         	$color2 = 'yellow';
                         }elseif($status == "Fixed"){
@@ -142,6 +148,9 @@
 												<dd>
 													<ul>
 														<li><a href='index.php?statusUpdateForm=true&&id=$id&&status=New'>New<span class='value'>New</span></a></li>
+                                                        <li><a href='index.php?statusUpdateForm=true&&id=$id&&status=Duplicate'>Duplicate<span class='value'>Duplicate</span></a></li>
+                                                        <li><a href='index.php?statusUpdateForm=true&&id=$id&&status=Not A Bug'>Not A Bug<span class='value'>Not A Bug</span></a></li>
+                                                        <li><a href='index.php?statusUpdateForm=true&&id=$id&&status=Will Not Fix'>Will Not Fix<span class='value'>Will Not Fix</span></a></li>
 														<li><a href='index.php?statusUpdateForm=true&&id=$id&&status=In Progress'>In Progress<span class='value'>In Progress</span></a></li>
                                                         <li><a href='index.php?statusUpdateForm=true&&id=$id&&status=Fixed'>Fixed<span class='value'>Fixed</span></a></li>
 													</ul>

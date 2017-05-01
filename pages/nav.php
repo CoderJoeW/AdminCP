@@ -1,7 +1,14 @@
+<?
+	$sql = "SELECT * FROM bugReqs WHERE version='$currVersion'";
+    $query = mysql_query($sql);
+    
+    $rows = mysql_num_rows($query);
+?>
 <div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a onclick="openBugReportOverlay()">Bug Report Form</a>
         <a onclick="toggleBugReps()">Toggle Bug Table</a>
+        <a onclick="toggleBugReqs()">Toggle Bug Request <span class="badge"><? echo $rows; ?></span></a>
         <a onclick="toggleDonation()">Toggle Donation Table</a>
         <a onclick="toggleVideo()">Toggle Video Table</a>
         <br>
@@ -15,6 +22,7 @@ document.write('<s'+'cript type="text/javascript" src="http://en.ad.altervista.o
 	</div>
 
 	<img width="50px" height="50px" src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Menu-icon.png" onclick="openNav()">
+    <span class="badge"><? echo $rows; ?></span>
 
 	<!--Placeholder-->
 	<!--<div id="main"></div>-->

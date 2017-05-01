@@ -8,7 +8,8 @@
                 <option value="priority">Priority</option>
             </select>
             <select name="version" id="version" class="hidden">
-            	<option value="0.7.6">0.7.6</option>
+            	<option value="0.7.7">0.7.7</option>
+                <option value="0.7.6">0.7.6</option>
             	<option value="0.7.5">0.7.5</option>
             	<option value="0.7.4">0.7.4</option>
             	<option value="0.7.3">0.7.3</option>

@@ -4,7 +4,7 @@
     //require_once("../server/overhead/contructionBanner.php");
     $bypassEncoding = "bake74wncn8829011903jdnnamkjeu298727ye7d";
     if($_GET['v'] == null){
-    	$currVersion = "0.7.6";
+    	$currVersion = "0.7.9";
     }else{
     	$currVersion = $_GET['v'];
     }
@@ -41,10 +41,11 @@
     	require_once("overlay/bugReport.php"); 
     	require_once("overlay/statsReview.php");
         require_once("pages/bugReps.php");
+        require_once("pages/bugReqs.php");
         require_once("pages/donations.php");
         require_once("pages/modVideos.php");
     ?>
     
-    <script src='js/main.js?v=0.0.8'></script>
+    <script src='js/main.js?v=0.0.10'></script>
 </body>
 </html>

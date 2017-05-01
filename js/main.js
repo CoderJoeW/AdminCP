@@ -77,11 +77,27 @@
 			}
 		});
     }
+    
+    function toggleApprovalForm(id){
+    	var string1 = "#approvalForm" + id;
+        $(string1).dialog({
+			//autoOpen: false,
+			show: {
+				effect: "blind",
+				duration: 1000
+			},
+			hide: {
+				effect: "explode",
+ 				duration: 1000
+			}
+		});
+    }
     	
 	function toggleVideo(){
 		$('#modvideos').toggle();
 		document.getElementById('donations').style.display = "none";
 		document.getElementById('bugReps').style.display = "none";
+        document.getElementById('bugReqs').style.display = "none";
 		document.getElementById('modvideos');
 	}
         
@@ -89,6 +105,7 @@
 		$('#donations').toggle();
 		document.getElementById('donations');
 		document.getElementById('bugReps').style.display = "none";
+        document.getElementById('bugReqs').style.display = "none";
 		document.getElementById('modvideos').style.display = "none";
 	}
         
@@ -96,5 +113,14 @@
 		$('#bugReps').toggle();
 		document.getElementById('donations').style.display = "none";
 		document.getElementById('bugReps');
+        document.getElementById('bugReqs').style.display = "none";
+		document.getElementById('modvideos').style.display = "none";
+	}
+    
+    function toggleBugReqs(){
+		$('#bugReqs').toggle();
+		document.getElementById('donations').style.display = "none";
+		document.getElementById('bugReps').style.display = "none";
+        document.getElementById('bugReqs');
 		document.getElementById('modvideos').style.display = "none";
 	}
